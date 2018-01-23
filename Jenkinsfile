@@ -6,9 +6,9 @@ pipeline {
     
   }
   stages {
-    stage('') {
+    stage('Build') {
       steps {
-        tm 'checkout scm'
+        sh 'mvn clean package'
       }
     }
   }
