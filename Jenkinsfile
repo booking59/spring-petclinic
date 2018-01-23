@@ -6,9 +6,9 @@ pipeline {
     
   }
   stages {
-    stage('Checkout') {
+    stage('') {
       steps {
-        sh 'checkout scm'
+        tm 'checkout scm'
       }
     }
   }
